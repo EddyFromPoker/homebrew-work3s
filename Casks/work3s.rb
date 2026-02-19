@@ -2,10 +2,10 @@ cask "work3s" do
   version "0.4.16"
   sha256 "b728357f1f3227d7fd3f9ecfcbb9bf74e7dfe9d4e371275b95c845f0c1228408"
 
-  url "https://github.com/EddyFromPoker/work3s-desktop/releases/download/v#{version}/Work3s_#{version}_aarch64.dmg"
+  url "https://github.com/work3s/desktop/releases/download/v#{version}/Work3s_#{version}_aarch64.dmg"
   name "Work3s"
   desc "Git worktree management for macOS"
-  homepage "https://github.com/EddyFromPoker/work3s-desktop"
+  homepage "https://github.com/work3s/desktop"
 
   livecheck do
     url :url
